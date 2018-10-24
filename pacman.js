@@ -4,7 +4,7 @@ var lives = 2;
 
 
 // Define your ghosts here
-
+var inky;
 // replace this comment with your four ghosts setup as objects
 
 
