@@ -2,11 +2,35 @@
 var score = 0;
 var lives = 2;
 
-
 // Define your ghosts here
-var inky;
-// replace this comment with your four ghosts setup as objects
-
+var inky = {
+  menu_option: '1',
+  name: 'Inky',
+  colour: 'Red',
+  character: 'Shadow',
+  edible: false,
+}
+var blinky = {
+  menu_option: '2',
+  name: 'Blinky',
+  colour: 'Cyan',
+  character: 'Speedy',
+  edible: false,
+}
+var pinky = {
+  menu_option: '3',
+  name: 'Pinky',
+  colour: 'Pink',
+  character: 'Bashful',
+  edible: false,
+}
+var clyde = {
+  menu_option: '4',
+  name: 'Clyde',
+  colour: 'Orange',
+  character: 'Pokey',
+  edible: false,
+}
 
 // Draw the screen functionality
 function drawScreen() {
